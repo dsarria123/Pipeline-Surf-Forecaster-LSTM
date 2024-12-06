@@ -1,0 +1,9 @@
+psycopg2-binary==2.9.10
+requests==2.32.3
+APScheduler==3.11.0
+pandas==2.2.3
+numpy==1.26.4
+SQLAlchemy==2.0.36
+wget==3.2
+scikit-learn==1.5.2
+tensorflow==2.16.2
