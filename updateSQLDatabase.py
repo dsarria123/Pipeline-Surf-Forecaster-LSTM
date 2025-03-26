@@ -10,7 +10,7 @@ def connect_to_db():
     Connects engine to database
     '''
     try:
-        DATABASE_URL = "postgresql+psycopg2://postgres:ilikepie123@localhost:5432/51101BuoyData"
+        DATABASE_URL = "postgresql+psycopg2://postgres:######@localhost:5432/51101BuoyData"
         engine = create_engine(DATABASE_URL)
         return engine
     except SQLAlchemyError as e:
